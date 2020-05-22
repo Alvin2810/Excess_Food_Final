@@ -11,6 +11,7 @@ $(document).ready(function() {
    $('.sanchoybow').hide();
     $('.recipe-button').hide();
    $('.recipe_list').hide();
+   $('.card_available_items1').hide();
 });
 
 $(document).ready(function(){
@@ -19,16 +20,18 @@ $(document).ready(function(){
   $(".recipe-button").click(function(){
       $('.pancake').show();
       $('.recipe_list').show();
+      $('.card_available_items1').show();
       $('.home').hide();
     })
   }})});
 
   $(document).ready(function(){
-    $("#butter, #garlic, #oil").change(function() {
+    $("#garlic, #butter, #oil").change(function() {
       if (this.checked){
     $(".recipe-button").click(function(){
         $('.spaghetti').show();
         $('.recipe_list').show();
+        $('.card_available_items2').show();
         $('.home').hide();
       })
     }})});
@@ -39,16 +42,18 @@ $(document).ready(function(){
       $(".recipe-button").click(function(){
           $('.spicypork').show();
           $('.recipe_list').show();
+          $('.card_available_items3').show();
           $('.home').hide();
         })
       }})});
 
       $(document).ready(function(){
-        $("#oil,#pasta,#garlic,#tomato").change(function() {
+        $("#oil,#pasta, #garlic, #tomato").change(function() {
           if (this.checked){
         $(".recipe-button").click(function(){
             $('.pasta').show();
             $('.recipe_list').show();
+            $('.card_available_items4').show();
             $('.home').hide();
           })
         }})});
@@ -59,6 +64,7 @@ $(document).ready(function(){
           $(".recipe-button").click(function(){
               $('.chickenpotato').show();
               $('.recipe_list').show();
+              $('.card_available_items5').show();
               $('.home').hide();
             })
           }})});
@@ -69,6 +75,7 @@ $(document).ready(function(){
               $(".recipe-button").click(function(){
                   $('.potatofrittata').show();
                   $('.recipe_list').show();
+                  $('.card_available_items6').show();
                   $('.home').hide();
                 })
               }})});
@@ -78,19 +85,20 @@ $(document).ready(function(){
               $(".recipe-button").click(function(){
                 $('.pizzatomato').show();
                 $('.recipe_list').show();
+                $('.card_available_items7').show();
                 $('.home').hide();
             })
 }})});
 
 $(document).ready(function(){
   $("#milk").change(function() {
-    if (this.checked){
       $(".recipe-button").click(function(){
         $('.vanillamilkshake').show();
         $('.recipe_list').show();
+        $('.card_available_items8').show();
         $('.home').hide();
     })
-}})});
+})});
 
 $(document).ready(function(){
   $("#pasta").change(function() {
@@ -98,6 +106,7 @@ $(document).ready(function(){
       $(".recipe-button").click(function(){
         $('.sausage_mushroom_pasta').show();
         $('.recipe_list').show();
+        $('.card_available_items9').show();
         $('.home').hide();
     })
 }})});
@@ -108,6 +117,7 @@ $(document).ready(function(){
       $(".recipe-button").click(function(){
         $('.sanchoybow').show();
         $('.recipe_list').show();
+        $('.card_available_items10').show();
         $('.home').hide();
     })
 }})});

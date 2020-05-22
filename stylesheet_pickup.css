@@ -60,7 +60,7 @@ h2 {
   grid-column-gap: 5px;
 }
 
-.card_available_items1 {
+.card_available_items1, .card_available_items2,.card_available_items4,.card_available_items5,.card_available_items6,.card_available_items7,.card_available_items8,.card_available_items9,.card_available_items10,.card_available_items3{
   text-align: center;
   align-items: center;
   box-shadow: 5px 7px 10px rgba(0,0,0,0.25);
@@ -68,17 +68,17 @@ h2 {
   margin-top: 5px;
 
 }
-.card_available_items1 p{
+.card_available_items1 p, .card_available_items2 p , .card_available_items3 p, .card_available_items4 p, .card_available_items5 p, .card_available_items6 p, .card_available_items7 p, .card_available_items8 p, .card_available_items9 p, .card_available_items10 p{
   margin: 0px 0px 0px 0px;
 }
 
-.card_available_items1 a{
+.card_available_items1 a, .card_available_items2 a, .card_available_items3 a, .card_available_items4 a, .card_available_items5 a, .card_available_items6 a, .card_available_items7 a, .card_available_items8 a, .card_available_items9 a, .card_available_items10 a{
   text-decoration: none;
   color:black;
 }
 
 
-.card_available_items1 img{
+.card_available_items1 img, .card_available_items3 img, .card_available_items4 img, .card_available_items5 img, .card_available_items6 img, .card_available_items7 img, .card_available_items8 img, .card_available_items9 img, .card_available_items10 img, .card_available_items2 img{
   height:125px;
   width: 175px;
 }

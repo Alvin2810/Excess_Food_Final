@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #fff2cc;
   font-family: Calibri,sans-serif;
   max-width: 74rem;
   text-align: left;
@@ -8,12 +8,12 @@ body {
 }
 h1{
   border-radius: 15px;
-  background-color: red;
+  background-color: white;
   text-align: center;
   font-weight: 900;
   font-size: 3rem;
   margin: 10px 10px 10px 10px;
-  color: white;
+  color: #CC0000;
 }
 
 h2 {
@@ -50,7 +50,7 @@ h2 {
 }
 
 .navbar a.active {
-  background-color: red;
+  background-color: #CC0044;
   color: white;
 }
 
@@ -58,7 +58,9 @@ h2 {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 5px;
+  margin-bottom: 52px;
 }
+
 
 .card_available_items1, .card_available_items2,.card_available_items4,.card_available_items5,.card_available_items6,.card_available_items7,.card_available_items8,.card_available_items9,.card_available_items10,.card_available_items3{
   text-align: center;

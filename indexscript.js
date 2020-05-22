@@ -12,6 +12,15 @@ $(document).ready(function() {
     $('.recipe-button').hide();
    $('.recipe_list').hide();
    $('.card_available_items1').hide();
+   $('.card_available_items2').hide();
+   $('.card_available_items3').hide();
+   $('.card_available_items4').hide();
+   $('.card_available_items5').hide();
+   $('.card_available_items6').hide();
+   $('.card_available_items7').hide();
+   $('.card_available_items8').hide();
+   $('.card_available_items9').hide();
+   $('.card_available_items10').hide();
 });
 
 $(document).ready(function(){
@@ -144,6 +153,16 @@ $(".allrecipe").click(function(){
   $('.sausage_mushroom_pasta').show();
   $('.sanchoybow').show();
   $('.recipe_list').show();
+  $('.card_available_items1').show();
+  $('.card_available_items2').show();
+  $('.card_available_items3').show();
+  $('.card_available_items4').show();
+  $('.card_available_items5').show();
+  $('.card_available_items6').show();
+  $('.card_available_items7').show();
+  $('.card_available_items8').show();
+  $('.card_available_items9').show();
+  $('.card_available_items10').show();
   $('.home').hide();
 })});
 $(document).ready(function(){

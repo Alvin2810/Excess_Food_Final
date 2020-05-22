@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="stylesheet_template.css"  rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Excess Food App
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="indexscript.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    
+      <h1>Excess Food</h1>
+        
+      <h2>Ingredient List</h2>
+
+    <div class="home">
+    <p>Select the ingredients you have available Or click Show recipes to see the recipe list</p></br>
+
+    <form  action="quickrecipe.html">
+      <div class="checkboxes">
+        <div><input type="checkbox" id="garlic" /><label for="garlic"> Garlic</label></div>
+        <div><input type="checkbox" id="shallots" /><label for="shallots"> Shallots</label></div>
+        <div><input type="checkbox" id="potato" /><label for="potato"> Potatoes</label></div>
+        <div><input type="checkbox" id="tomato" /><label for="tomato"> Tomatoes</label></div>
+        <div><input type="checkbox" id="butter" /><label for="butter"> Butter</label></div>
+        <div><input type="checkbox" id="egg" /><label for="egg"> Eggs</label></div>
+        <div><input type="checkbox" id="bacon" /><label for="bacon"> Bacon</label></div>
+        <div><input type="checkbox" id="lemon" /><label for="lemon"> Lemons</label></div>
+        <div><input type="checkbox" id="milk" /><label for="milk"> Milk</label></div>
+        <div><input type="checkbox" id="rice" /><label for="rice"> Rice</label></div>
+        <div><input type="checkbox" id="sugar" /><label for="sugar"> Sugar</label></div>
+        <div><input type="checkbox" id="oil" /><label for="oil"> Oil</label></div>
+        <div><input type="checkbox" id="stock" /><label for="stock"> Stock</label></div>
+        <div><input type="checkbox" id="pasta" /><label for="pasta"> Pasta</label></div>
+        <div><input type="checkbox" id="cinnamon" /><label for="cinnamon"> Cinnamon</label></div>
+        <div><input type="checkbox" id="beans" /><label for="beans"> Beans</label></div>
+        <div><input type="checkbox" id="honey" /><label for="honey"> Honey</label></div>
+        <div><input type="checkbox" id="flour" /><label for="flour"> Flour</label></div>
+      </div>
+
+      <div class="show">
+        <input  type="button" class="allrecipe" value="Show Recipes">
+        <input  type="button" class="recipe-button" value="Show Recipes">
+      </div>
+
+      <div class="upload">
+        <input onclick="window.location.href='Addrecipe.html'" type="button" class="upload-button" value="Upload your recipe">
+      </div>
+      <br>
+      <br>
+      <br>
+      
+    </form>
+</div>
+
+<div class="recipe_list">
+  <h2>Recipe List</h2>
+  <div class="list">
+  <div class="pancake"><img src="recipe/recipe_images/pancake.jpg" height="80px" width="120px"><p>Pancake</p><button class="moreinfo" onclick="window.location.href='recipe/pancakes.html'">More info</button></div>
+  <div class="spaghetti"><img src="recipe/recipe_images/spaghetti.jpeg" height="80px" width="120px"><p>Spaghetti</p><button class="moreinfo" onclick="window.location.href='recipe/spaghetti.html'">More info</button></div>
+  <div class="spicypork"><img src="recipe/recipe_images/spicypork.jpeg" height="80px" width="120px"><p>Spicy Pork</p><button class="moreinfo" onclick="window.location.href='recipe/spicy_pork.html'">More info</button></div>
+  <div class="pasta"><img src="recipe/recipe_images/pasta.jpeg" height="80px" width="120px"><p>Pasta</p><button class="moreinfo" onclick="window.location.href='recipe/pasta.html'">More info</button></div>
+  <div class="chickenpotato"><img src="recipe/recipe_images/chicken-with-potato-cakes-80637-1.jpeg" height="80px" width="120px"><p>Chicken with Potato Cakes</p><button class="moreinfo" onclick="window.location.href='recipe/chicken_with_potato_cakes.html'">More info</button></div>
+  <div class="potatofrittata"><img src="recipe/recipe_images/Potato-&-Pea-Frittata.jpg" height="80px" width="120px"><p>Potato and Pea Frittata</p><button class="moreinfo" onclick="window.location.href='recipe/potato_&_pea_frittata.html'">More info</button></div>
+  <div class="pizzatomato"><img src="recipe/recipe_images/Wholemeal-Pizzas-with-Tomato-&-Pesto.jpg" height="80px" width="120px"><p>Wholemeal Pizzas with Tomato & Pesto</p><button class="moreinfo" onclick="window.location.href='recipe/wholemeal_pizzas_with_tomato_&_pesto.html'">More info</button></div>
+  <div class="vanillamilkshake"><img src="recipe/recipe_images/milkshake.jpeg" height="80px" width="120px"><p>Vanilla Milkshake</p><button class="moreinfo" onclick="window.location.href='recipe/vanilla_milkshake.html'">More info</button></div>
+  <div class="sausage_mushroom_pasta"><img src="recipe/recipe_images/Sausage-&-Mushroom-Pasta.jpg" height="80px" width="120px"><p>Sausage and Mushroom Pasta</p><button class="moreinfo" onclick="window.location.href='recipe/sausage_&_mushroom_pasta.html'">More info</button></div>
+  <div class="sanchoybow"><img src="recipe/recipe_images/Vegetarian-San-Choy-Bow.jpg" height="80px" width="120px"><p>Vegetarian San Choy Bow</p><button class="moreinfo" onclick="window.location.href='recipe/vegetarian_san_choy_bow.html'">More info</button></div>
+
+</div>
+</div>
+
+
+    <div class="navbar">
+      <a href="donate.html" >Donate</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="pickup.html">Pickup</a>
+    </div>
+
+  </body>
+</div>
+</html>

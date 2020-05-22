@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+  font-family: Calibri,sans-serif;
+  max-width: 74rem;
+  text-align: left;
+  margin: auto;
+  overflow: scroll;
+}
+h1{
+  border-radius: 15px;
+  background-color: red;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 10px 10px 10px 10px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 900;
+  margin: 10px 10px 10px 10px;
+  color: black;
+}
+
+.navbar {
+  max-width: 74rem;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: red;
+  color: white;
+}
+
+.cardgrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+}
+
+.card_available_items1 {
+  text-align: center;
+  align-items: center;
+  box-shadow: 5px 7px 10px rgba(0,0,0,0.25);
+  padding: 0px;
+  margin-top: 5px;
+
+}
+.card_available_items1 p{
+  margin: 0px 0px 0px 0px;
+}
+
+.card_available_items1 a{
+  text-decoration: none;
+  color:black;
+}
+
+
+.card_available_items1 img{
+  height:125px;
+  width: 175px;
+}
